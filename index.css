@@ -1,0 +1,355 @@
+.navbar {
+    width: 100% !important;
+    padding-left: 100px !important;
+}
+
+
+.navbar-nav:active:a {
+    color: orange;
+}
+
+.navbar-brand {
+    color: black;
+}
+.coverpage-heading{
+    font-weight:bold;
+}
+.banner-img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.padding-top{
+    padding-top: 15%;
+
+}
+.left-image{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.margin-bottom{
+    margin-bottom:8%;
+}
+.left-bg-img{
+    background-image: url(images/left-bg-decor.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.about-us-para{
+    text-align: center;
+}
+.about-us-color{
+    color:#ff8b26 ;
+}
+.author-div{
+    padding-bottom: 400px;
+    height: 300px;
+
+}
+.overlapping-buttons1{
+    color: white !important;
+    border: radius 10px !important;
+    height: 70px !important;
+    width: 70px !important;
+    margin: top 90px !important;
+    margin: left 20px !important;
+
+    background: radial-gradient(at top left, rgb(244, 124, 69), rgb(241, 91, 103));
+    margin: 25%;
+    padding-top: 5%;
+
+}
+.overlapping-buttons2{
+    color: white !important;
+    border: radius 10px !important;
+    height: 70px !important;
+    width: 70px !important;
+    margin: top 40px !important;
+    margin: left 20px !important;
+
+    background: radial-gradient(at top left, rgb(244, 124, 69), rgb(241, 91, 103));
+    margin: 25% !important;
+    padding-top: 50%;
+
+}
+
+.cover-text {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.cover-span {
+    color: darkorange;
+
+
+}
+
+.cover-button {
+    padding: 2%;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background-color: darkorange
+}
+
+@media all and (max-width: 580px) {
+    .top-row {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+}
+
+.card-img-top {
+    width: 20%;
+    height: 20%;
+}
+
+.section2-cards {
+    width: 18rem;
+    position: relative;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.vertical-row-style {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mini-image {
+    float: left;
+    display: block;
+    margin-right: 3%;
+}
+
+.mini-img-para {
+    font-size: 15px;
+    padding-left: 2%;
+    text-align: left;
+
+}
+
+.author-img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -50px;
+
+}
+
+.author-container {
+    width: 300px;
+    height: 200px;
+    background: radial-gradient(at top left, rgb(244, 124, 69), rgb(241, 91, 103));
+    border-radius: 4px;
+    margin: 15%;
+}
+
+.author-name {
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.author-para {
+    font-style: italic;
+    color: white;
+    padding-top: 30px;
+}
+
+@media all and (max-width: 1000px) {
+    .author-card {
+        display: none;
+    }
+
+    .authors {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .vertical-trio-padding {
+        padding-top: 50px;
+
+    }
+}
+
+.footer-container {
+    height: 500px;
+    margin: 0 auto;
+}
+
+.section-card-containor {
+    display: flex;
+    justify-content: center;
+}
+/* footer */
+.footer-mg {
+    margin-top: 3rem;
+    height: 700px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+
+}
+
+.footer {
+    margin-top: 4rem;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+}
+
+.footer-form {
+    padding: 2rem 2rem;
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+
+}
+
+.form-text-input {
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-input {
+    width: 48%;
+    height: 40px;
+    color: rgba(143, 137, 137, 0.247);
+    outline: none;
+    border: 1px solid rgba(148, 146, 146, 0.116);
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.form-textarea {
+    width: 100%;
+    height: 40%;
+}
+
+.footer-intro {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+/* footer intro seciton */
+.footer-into-h1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 2.7rem;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 2rem;
+
+}
+
+.footer-into-lava {
+    color: rgb(251, 169, 70);
+}
+
+.footer-into-p {
+    color: white;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.footer-icons-containor {
+    display: flex;
+}
+
+.footer-icons-containor>a {
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-icons-containor>a:hover {
+    background-color: black;
+}
+
+.footer-line {
+    border: .5px solid rgba(255, 249, 249, 0.685);
+    width: 70%;
+    display: block;
+    margin-top: 2rem;
+
+}
+
+.footer-direction {
+    flex-direction: column;
+}
+
+.footer-txt {
+    width: 70%;
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: .8rem;
+}
+
+@media only screen and (max-width: 991px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 0rem;
+
+
+    }
+
+    .footer-form,
+    .footer-intro {
+        width: 70%
+    }
+
+    .footer-line {
+        width: 100%;
+    }
+
+    .footer-into-h1 {
+        margin-top: 1rem;
+    }
+
+    .footer-txt {
+        margin-top: 1rem;
+    }
+}
